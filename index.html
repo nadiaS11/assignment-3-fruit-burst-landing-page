@@ -22,7 +22,7 @@
 </head>
 
 <body class="font-lato container mx-auto">
-    <header>
+    <header class="">
         <!-- navbar -->
         <nav>
             <div class="mt-5 rounded-l-full rounded-r-full navbar text-black md:bg-[#F85559] lg:text-white">
@@ -77,7 +77,7 @@
         </nav>
 
         <!-- banner slide -->
-        <div class="relative mt-10 ">
+        <div class="relative mt-16 ">
 
             <div class="relative carousel z-10 w-full">
                 <div id="slide1" class="carousel-item relative w-full ">
@@ -156,7 +156,7 @@
 
             <!-- absolute position in carousel -->
             <div
-                class="hidden absolute -bottom-20 left-60 right-60 z-20  lg:flex lg:gap-10 max-w-screen p-5 items-center justify-evenly bg-white rounded-lg drop-shadow font-medium">
+                class="hidden absolute -bottom-24 left-60 right-60 z-20  lg:flex lg:gap-10 max-w-screen p-5 items-center justify-evenly bg-white rounded-lg drop-shadow font-medium">
                 <div class="text-center">
                     <img src="./images/fruit1.png" alt="">
                     <p>Grapes</p>
@@ -179,13 +179,15 @@
                 </div>
             </div>
         </div>
-    </header>
-
+    </header> 
+    
+        <!-- main section -->
+     
     <main>
 
         <!-- deal of the day section -->
-        <section class="">
-            <div class="mt-10 p-4 lg:mt-32 flex flex-col md:flex-row justify-center md:justify-between mx-auto">
+        <section>
+            <div class=" p-4 lg:mt-40 flex flex-col md:flex-row justify-center md:justify-between mx-auto">
                 <div>
                     <h2 class="text-5xl font-extrabold ">Deal of the day</h2>
                     <p class="text-[#12121299]">Contrary to popular belief, is not simply random text. It has roots in a
@@ -221,7 +223,7 @@
             </div>
 
             <!--Grid section for card-modal-card  -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-5 mx-auto">
+            <div class="grid grid-cols-1 mt-16 md:grid-cols-2 lg:grid-cols-4 my-5 mx-auto gap-4">
 
                 <!--1st card-modal-card section -->
                 <div class="card w-80 bg-base-100 border border-gray-300 p-4 mx-auto">
@@ -490,7 +492,7 @@
 
             </div>
             <!-- shop All Button -->
-            <div class="mx-auto mt-8 flex justify-center">
+            <div class="mx-auto mt-16 flex justify-center">
                 <button class="btn bg-[#F85559] text-white">Shop All</button>
 
             </div>
@@ -498,8 +500,86 @@
 
         <!-- meet the team section -->
         <section class="mt-24">
-            
+            <div class="hero min-h-[600px] max-w-full  my-8 mx-auto" style="background-image: url(./images/banner1.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="grid grid-cols-1 gap-10 justify-between flex-col-reverse text-center text-neutral-content p-10 space-y-4">
+                    <div class="max-w-7xl">
+                        <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+                        <p class="mb-5">We've the best fruit experts on board to help you get all the fresh fruits and veggies collected directly from firms to your doorstep everyday.</p>                    
+                      </div>
+                   <!--member div  -->
+                   <div class=" flex flex-col lg:flex-row p-4 justify-between">
+                    <div class="flex flex-col justify-center">
+                        <figure >
+                          <img  src="./images/member1.png" alt="client" class="rounded-full w-20 h-20 mx-auto" />
+                        </figure>
+                        <p class="font-semibold text-xl">Awlad Hossain</p>
+                        <p>Fruits Expert</p>
+                        <div>
+                            <a href=""><i class="fa-brands fa-facebook fa-xl py-4" style="color: #F85559; "></i>
+                            </a>
+                            <a href=""><i class="fa-brands fa-twitter fa-xl px-2 py-4" style="color: #F85559; "></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin fa-xl  py-4" style="color: #F85559; "></i></a>
+                        </div>
+                      </div>
+                      <div class="flex flex-col justify-center">
+                        <figure >
+                          <img  src="./images/member2.png" alt="client" class="rounded-full w-20 h-20 mx-auto" />
+                        </figure>
+                        <p class="font-semibold text-xl">Safia Chowdhury</p>
+                        <p>Fruits Expert</p>
+                        <div>
+                            <a href=""><i class="fa-brands fa-facebook fa-xl py-4" style="color: #F85559; "></i>
+                            </a>
+                            <a href=""><i class="fa-brands fa-twitter fa-xl px-2 py-4" style="color: #F85559; "></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin fa-xl  py-4" style="color: #F85559; "></i></a>
+                        </div>
+                      </div>
+                      <div class="flex flex-col justify-center">
+                        <figure >
+                          <img  src="./images/member3.png" alt="client" class="rounded-full w-20 h-20 mx-auto" />
+                        </figure>
+                        <p class="font-semibold text-xl">Rokib Hossain</p>
+                        <p>Fruits Expert</p>
+                        <div>
+                            <a href=""><i class="fa-brands fa-facebook fa-xl py-4" style="color: #F85559; "></i>
+                            </a>
+                            <a href=""><i class="fa-brands fa-twitter fa-xl px-2 py-4" style="color: #F85559; "></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin fa-xl  py-4" style="color: #F85559; "></i></a>
+                        </div>
+                      </div>
+                      <div class="flex flex-col justify-center">
+                        <figure >
+                          <img  src="./images/member4.png" alt="client" class="rounded-full w-20 h-20 mx-auto" />
+                        </figure>
+                        <p class="font-semibold text-xl">Chaity</p>
+                        <p>Fruits Expert</p>
+                        <div>
+                            <a href=""><i class="fa-brands fa-facebook fa-xl py-4" style="color: #F85559; "></i>
+                            </a>
+                            <a href=""><i class="fa-brands fa-twitter fa-xl px-2 py-4" style="color: #F85559; "></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin fa-xl  py-4" style="color: #F85559; "></i></a>
+                        </div>
+                      </div>
+                   </div>
+                  
+                </div>
+                
+              </div>
 
+
+        </section>
+
+        <!-- why choose us section -->
+        <section class="mt-24">
+            <h1>Why Choose US</h1>
+            <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+                <div>
+                    
+                </div>
+
+            </div>
         </section>
 
 
