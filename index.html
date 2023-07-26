@@ -21,8 +21,8 @@
     </style>
 </head>
 
-<body class="font-lato container mx-auto">
-    <header class="">
+<body class="font-lato ">
+    <header class="container mx-auto">
         <!-- navbar -->
         <nav>
             <div class="mt-5 rounded-l-full rounded-r-full navbar text-black md:bg-[#F85559] lg:text-white">
@@ -77,7 +77,7 @@
         </nav>
 
         <!-- banner slide -->
-        <div class="relative mt-16 ">
+        <div class="relative mt-12 ">
 
             <div class="relative carousel z-10 w-full">
                 <div id="slide1" class="carousel-item relative w-full ">
@@ -182,11 +182,11 @@
     </header> 
     
         <!-- main section -->     
-    <main>
+    <main class="container mx-auto">
 
         <!-- deal of the day section -->
         <section>
-            <div class=" p-4 lg:mt-40 flex flex-col md:flex-row justify-center md:justify-between mx-auto">
+            <div class=" p-4 lg:mt-40 flex flex-col items-center md:flex-row justify-center md:justify-between mx-auto">
                 <div>
                     <h2 class="text-5xl font-extrabold ">Deal of the day</h2>
                     <p class="text-[#12121299]">Contrary to popular belief, is not simply random text. It has roots in a
@@ -194,25 +194,25 @@
                 </div>
                 <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                     <div class="flex flex-col">
-                        <span class="countdown text-gray-600  text-5xl">
+                        <span class="countdown text-gray-600  text-4xl">
                             <span class="pr-5 text-black" style="--value:28;"></span>:
                         </span>
                         days
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown text-gray-600  text-5xl">
+                        <span class="countdown text-gray-600  text-4xl">
                             <span class="pr-5 text-black" style="--value:15;"></span>:
                         </span>
                         hours
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown text-gray-600  text-5xl">
+                        <span class="countdown text-gray-600  text-4xl">
                             <span class="pr-5 text-black" style="--value:24;"></span>:
                         </span>
                         min
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown text-gray-600 text-5xl">
+                        <span class="countdown text-gray-600 text-4xl">
                             <span class="pr-5 text-black" style="--value:2;"></span>
                         </span>
                         sec
@@ -572,7 +572,7 @@
         <!-- why choose us section -->
         <section class="mt-24 text-[#121212]">
             <div class="text-center space-y-4">
-                <h1 class="font-extrabold text-5xl">Why Choose US</h1>
+                <h1 class="font-extrabold text-4xl">Why Choose US</h1>
             <p>Expertise, customer focus, quality products, innovation, competitive pricing <br>your best choice for a healthy life.</p>
             </div>
             <div class="hidden lg:grid lg:grid-cols-3 mx-auto mt-16">
@@ -637,13 +637,15 @@
             </div>
 
             <!-- why choose us section grid for medium and smaller device -->
-            <div class="flex flex-col lg:hidden gap-8 text-center mx-auto mt-16">
+            <div class="flex flex-col lg:hidden gap-10 text-center mx-auto mt-16">
                 
                 <div class="mx-auto">
                     <img class="mx-auto p-2 max-w-[320px]" src="./images/whychoose1.png" alt="">
                 </div>
-                <div class="space-y-5 mx-auto">
-                    <div class="flex flex-col items-center gap-4">
+
+
+                <div class="space-y-5 mx-auto ">
+                    <div class="space-y-4">
                         <i class="fa-solid fa-users fa-2xl" style="color: #d0d2d2;"></i>
                     <div class="flex flex-col items-center gap-2">
                         <h1 class="font-extrabold text-xl">Dedicated Team</h1>
@@ -651,7 +653,7 @@
                         <p class="">Professional employees are there for you to pick <br>the most amazing and fresh fruits.</p>
                     </div>
                     </div>
-                    <div class="flex flex-col  items-center gap-4">
+                    <div class="space-y-4">
                         <i class="fa-solid fa-seedling fa-2xl" style="color: #d0d2d2;"></i>
                     <div class="flex flex-col items-center gap-2">
                         <h1 class="font-extrabold text-xl">Fresh is best</h1>
@@ -659,7 +661,7 @@
                         <p class="">Professional employees are there for you to pick <br>the most amazing and fresh fruits.</p>
                     </div>
                     </div>
-                    <div class="flex flex-col items-center gap-4">
+                    <div class="space-y-4">
                         <i class="fa-solid fa-gift fa-2xl" style="color: #d0d2d2;"></i>
                     <div class="flex flex-col items-center gap-2">
                         <h1 class="font-extrabold text-xl">Gift Certificate</h1>
@@ -670,7 +672,7 @@
                 </div>
                 
                 <div class="space-y-5 mx-auto ">
-                    <div class="flex flex-col items-center gap-4">
+                    <div class="space-y-4">
                         <i class="fa-solid fa-truck-field fa-2xl" style="color: #d0d2d2;"></i>
                         <div class="flex flex-col items-center gap-2">
                             <h1 class="font-extrabold text-xl">Integrated Supplier</h1>
@@ -678,7 +680,7 @@
                         <p class="">Professional employees are there for you to pick <br>the most amazing and fresh fruits.</p>
                     </div>
                     </div>
-                    <div class="flex flex-col  items-center  gap-4">
+                    <div class="space-y-4">
                         <i class="fa-solid fa-spa fa-2xl" style="color: #d0d2d2;"></i>
                     <div class="flex flex-col items-center gap-2 ">
                         <h1 class="font-extrabold text-xl">Sustainable Practice</h1>
@@ -687,7 +689,7 @@
                         <p class="">Professional employees are there for you to pick <br>the most amazing and fresh fruits.</p>
                     </div>
                     </div>
-                    <div class="flex flex-col  items-center gap-4">
+                    <div class="space-y-4">
                         <i class="fa-solid fa-thumbs-up fa-2xl" style="color: #d0d2d2;"></i>
                         <div class="flex flex-col items-center ">
                             <h1 class="font-extrabold text-xl">The Benefits Only</h1>
@@ -706,6 +708,34 @@
 
 
     </main>
+
+    <!-- Footer section -->
+    <footer class="footer footer-center p-10 bg-black text-white rounded mt-16">
+        <div class="flex">
+            <img src="./images/logo.png" alt="">
+            <p class="font-bold text-4xl">Fruit Burst</p>
+          </div>
+        <div class="grid grid-flow-col gap-4">
+          <a class="link link-hover">Home</a> 
+          <a class="link link-hover">About us</a> 
+          <a class="link link-hover">Shop</a> 
+          <a class="link link-hover">All Fruits</a> 
+          <a class="link link-hover">Support</a> 
+          <a class="link link-hover">My Account</a>
+        </div> 
+        <div>
+          <div class="grid grid-flow-col gap-4">
+            <a href="">
+                <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+            </a>
+            <a href=""><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i></a>
+            <a href=""><i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i></a>
+            <a href=""><i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i></a>
+            <a href=""><i class="fa-brands fa-reddit fa-2xl" style="color: #ffffff;"></i></a>
+          </div>
+        </div> 
+        
+      </footer>
 
 </body>
 
